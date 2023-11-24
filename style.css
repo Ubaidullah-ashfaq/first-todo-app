@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(0, 149, 255);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 50%;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}
+
+#todo-container {
+    padding: 20px;
+    max-height: 300px;
+  
+}
+
+#todo-list {
+    padding: 0;
+    text-align: center;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+#input-container {
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+#input-container button {
+    background-color:skyblue;
+    color: black;
+    padding: 5%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 5%;
+   box-shadow: 5px 5px 5px 5px;
+}
+#input-container button:hover{
+    color: white;
+    background-color:black;
+}
+#todo-input {
+    flex: 1;
+    padding: 8px;
+    box-shadow: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+button {
+    padding: 8px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
